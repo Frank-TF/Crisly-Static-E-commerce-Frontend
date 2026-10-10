@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crisly: everyday things at friendly prices.">
+  <title>Crisly - Everyday things at friendly prices</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="logo" href="index.html">Cris<b>ly</b></a>
+    <form class="search" action="index.html#shop" role="search">
+      <select aria-label="Category"><option>All</option><option>Gadgets</option><option>Bags</option><option>Home</option><option>Shoes</option></select>
+      <input type="search" name="q" placeholder="Search Crisly" aria-label="Search">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="acts" aria-label="Account">
+      <a href="#"><small>Hello, sign in</small>Account</a>
+      <a class="cart" href="cart.html" data-n="3">Cart</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="in">
+      <div>
+        <h1>Everyday things, friendly prices</h1>
+        <p>Free delivery over ₹999 and easy 7-day returns on thousands of daily essentials.</p>
+        <a class="btn" href="#shop">Shop now</a>
+      </div>
+      <div class="imgs" aria-hidden="true"><img src="images/headphones.jpg" alt=""><img src="images/sneakers.jpg" alt=""><img src="images/mug.jpg" alt=""></div>
+    </div>
+  </section>
+
+  <main id="main">
+    <div class="tiles">
+      <div class="box"><h2>Gadgets for every day</h2><div class="ph one"><img src="images/headphones.jpg" alt="Headphones"></div><a class="more" href="#shop">See more</a></div>
+      <div class="box"><h2>Home essentials</h2><div class="ph"><img src="images/mug.jpg" alt="Mug"><img src="images/succulents.jpg" alt="Plants"></div><a class="more" href="#shop">Explore home</a></div>
+      <div class="box"><h2>Bags and shoes</h2><div class="ph"><img src="images/backpack.jpg" alt="Backpack"><img src="images/sneakers.jpg" alt="Sneakers"></div><a class="more" href="#shop">Shop styles</a></div>
+      <div class="box"><h2>Study and write</h2><div class="ph one"><img src="images/notebook.jpg" alt="Notebook"></div><a class="more" href="#shop">Shop stationery</a></div>
+    </div>
+
+    <section class="box" aria-labelledby="d">
+      <div class="head"><h2 id="d">Today's deals</h2><a href="#shop">See all deals</a></div>
+      <div class="row">
+        <article class="product"><span class="off">25% off</span>
+          <div class="pic"><img src="images/headphones.jpg" alt="Cloud Beats Wireless Headphones" width="400" height="300" loading="lazy"></div>
+          <h3>Cloud Beats Wireless Headphones</h3><p class="rate">★★★★★ <small>4.8 (212)</small></p>
+          <p class="price">₹1,499<del>₹1,999</del></p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+        <article class="product"><span class="off">29% off</span>
+          <div class="pic"><img src="images/mug.jpg" alt="Sunrise Ceramic Mug, 350 ml" width="400" height="300" loading="lazy"></div>
+          <h3>Sunrise Ceramic Mug, 350 ml</h3><p class="rate">★★★★★ <small>4.9 (390)</small></p>
+          <p class="price">₹249<del>₹349</del></p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+        <article class="product"><span class="off">28% off</span>
+          <div class="pic"><img src="images/sneakers.jpg" alt="Easy Stride Sneakers, sizes 6-11" width="400" height="300" loading="lazy"></div>
+          <h3>Easy Stride Sneakers, sizes 6-11</h3><p class="rate">★★★★★ <small>4.5 (181)</small></p>
+          <p class="price">₹1,299<del>₹1,799</del></p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+        <article class="product">
+          <div class="pic"><img src="images/backpack.jpg" alt="Daily Carry Backpack, fits 15-inch laptop" width="400" height="300" loading="lazy"></div>
+          <h3>Daily Carry Backpack, fits 15-inch laptop</h3><p class="rate">★★★★★ <small>4.6 (148)</small></p>
+          <p class="price">₹899</p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="box" id="shop" aria-labelledby="s">
+      <div class="head"><h2 id="s">Best sellers</h2></div>
+      <div class="grid">
+        <article class="product">
+          <div class="pic"><img src="images/notebook.jpg" alt="Dot-Grid Notebook, A5, 160 pages" width="400" height="300" loading="lazy"></div>
+          <h3>Dot-Grid Notebook, A5, 160 pages</h3><p class="rate">★★★★★ <small>4.8 (275)</small></p>
+          <p class="price">₹179</p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+        <article class="product">
+          <div class="pic"><img src="images/succulents.jpg" alt="Desk Succulent Set, 3 plants with pots" width="400" height="300" loading="lazy"></div>
+          <h3>Desk Succulent Set, 3 plants with pots</h3><p class="rate">★★★★★ <small>4.7 (96)</small></p>
+          <p class="price">₹399</p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+        <article class="product">
+          <div class="pic"><img src="images/mug.jpg" alt="Sunrise Ceramic Mug, 350 ml" width="400" height="300" loading="lazy"></div>
+          <h3>Sunrise Ceramic Mug, 350 ml</h3><p class="rate">★★★★★ <small>4.9 (390)</small></p>
+          <p class="price">₹249<del>₹349</del></p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+        <article class="product">
+          <div class="pic"><img src="images/headphones.jpg" alt="Cloud Beats Wireless Headphones" width="400" height="300" loading="lazy"></div>
+          <h3>Cloud Beats Wireless Headphones</h3><p class="rate">★★★★★ <small>4.8 (212)</small></p>
+          <p class="price">₹1,499<del>₹1,999</del></p><p class="free">Free delivery over ₹999</p>
+          <a class="btn" href="cart.html">Add to cart</a>
+          <span class="tip" tabindex="0">Delivery info<p>Free delivery over ₹999. Easy 7-day returns.</p></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="box">
+      <ul class="perks">
+        <li><strong>Free delivery</strong>On orders over ₹999</li><li><strong>Easy returns</strong>Within 7 days</li>
+        <li><strong>Secure payment</strong>UPI, cards and cash</li><li><strong>Friendly support</strong>Real people, quick answers</li>
+      </ul>
+    </section>
+  </main>
+
+  <a class="totop" href="#top">Back to top</a>
+  <footer>
+    <div class="cols">
+      <div><h3>Crisly</h3><p>Everyday things at friendly prices.</p></div>
+      <div><h3>Shop</h3><a href="index.html">Home</a><a href="cart.html">Your cart</a></div>
+      <div><h3>Help</h3><a href="#">Delivery</a><a href="#">Returns</a></div>
+    </div>
+    <small>&copy; 2026 Crisly. Built with HTML and CSS only.</small>
+  </footer>
+</body>
+</html>
